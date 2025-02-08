@@ -71,3 +71,8 @@ document.body.innerHTML += '<p>Maximální šíře: ' + newBagLimit.hand_width +
 document.body.innerHTML += '<p>Maximální výška: ' + newBagLimit.hand_height + ' cm</p>';
 document.body.innerHTML += '<p>Maximální délka: ' + newBagLimit.hand_length + ' cm</p>';
 document.body.innerHTML += '<p>Maximální váha: ' + newBagLimit.hand_weight + ' kg</p>';
+
+document.body.innerHTML += '<p>Počet cestujících s druhým zavazadlem: ' + flight.availability.seats + ' </p>';
+
+let SecondBagPriceInCzk = flight.bags_price[2] * flight.conversion.EUR;
+document.body.innerHTML += '<p>Celková cena za druhá zavazadla: ' + Math.ceil(SecondBagPriceCzk) + ' Kč</p>';
