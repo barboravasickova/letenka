@@ -63,3 +63,10 @@ const flight = {
 
 document.body.innerHTML += '<p>Startovní země: ' + flight.countryFrom.name + '</p>';
 document.body.innerHTML += '<p>Cílová země: ' + flight.countryTo.name + '</p>';
+
+const newBagLimit = flight.baglimit;
+console.log(newBagLimit);
+
+// Test funkčnosti
+
+document.body.innerHTML += newBagLimit.hand_width;
