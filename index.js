@@ -67,6 +67,7 @@ document.body.innerHTML += '<p>Cílová země: ' + flight.countryTo.name + '</p>
 const newBagLimit = flight.baglimit;
 console.log(newBagLimit);
 
-// Test funkčnosti
-
-document.body.innerHTML += newBagLimit.hand_width;
+document.body.innerHTML += '<p>Maximální šíře: ' + newBagLimit.hand_width + ' cm</p>';
+document.body.innerHTML += '<p>Maximální výška: ' + newBagLimit.hand_height + ' cm</p>';
+document.body.innerHTML += '<p>Maximální délka: ' + newBagLimit.hand_length + ' cm</p>';
+document.body.innerHTML += '<p>Maximální váha: ' + newBagLimit.hand_weight + ' kg</p>';
